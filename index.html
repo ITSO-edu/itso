@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Informática Industrial, 2.º semestre | ITSO</title>
+  <meta name="description" content="Portal estudiantil de Informática Industrial del ITSO: horario, videos, docentes, recursos y radio en línea.">
+  <meta name="theme-color" content="#1b1c1e">
+  <link rel="icon" href="https://i.postimg.cc/bYScpTL8/9cdc4acd-ffa2-4387-9afc-c778f8da3ac2.png">
+  <meta property="og:title" content="Informática Industrial, 2.º semestre | ITSO">
+  <meta property="og:description" content="Horario, videos, docentes, recursos y radio en línea.">
+  <meta property="og:image" content="https://i.postimg.cc/HxHHV7L3/IMG-20250205-030822-792.jpg">
+  <meta property="og:url" content="https://anddycort.github.io/Informatica-Industrial-ITSO/">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="nav glass">
+  <a class="marca" href="#inicio">ITSO</a>
+  <nav id="menu" class="menu" aria-label="Principal">
+    <a href="#horario">Horario</a>
+    <a href="#videos">Videos</a>
+    <a href="#carrera">Carrera</a>
+    <a href="#docentes">Docentes</a>
+    <a href="#recursos">Recursos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><i class="fas fa-bars"></i></button>
+</header>
+
+<main>
+  <section id="inicio" class="hero">
+    <div class="hero-texto">
+      <p class="sobre">Instituto Tecnológico Rvdo. Padre Sebastián Obermaier</p>
+      <h1>Informática Industrial<br>Segundo semestre</h1>
+      <p class="lead">Horarios, grupos de estudio, videos de repaso, material descargable y contacto con docentes y secretaría, reunidos en un solo lugar. La radio en línea te acompaña mientras navegas.</p>
+      <div class="redes">
+        <a class="btn" href="https://t.me/+VJrNYJire-phNGFh"><i class="fab fa-telegram"></i> Telegram</a>
+        <a class="btn" href="https://chat.whatsapp.com/GXEGVZaUR6iIVoonikATjI"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        <a class="btn" href="https://discord.gg/4ESWdD3qu5"><i class="fab fa-discord"></i> Discord</a>
+      </div>
+    </div>
+    <dl class="ficha glass">
+      <div><dt>Carrera</dt><dd>Informática Industrial, 3 años</dd></div>
+      <div><dt>Institución</dt><dd>Instituto fiscal en convenio con Fe y Alegría</dd></div>
+      <div><dt>Ubicación</dt><dd>Villa Adela, El Alto, La Paz</dd></div>
+      <div><dt>Sitio oficial</dt><dd><a href="http://www.itso.edu.bo">itso.edu.bo</a></dd></div>
+    </dl>
+  </section>
+
+  <section id="horario" class="seccion">
+    <h2>Horario de clases</h2>
+    <div class="tabla-wrap glass">
+      <table id="tabla-horario">
+        <thead>
+          <tr><th>Hora</th><th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">08:00 – 09:45</th>
+            <td>Programación II<span>Lab. Inf. I</span></td>
+            <td>Cálculo Aplicado<span>Aula</span></td>
+            <td>Electrónica General I<span>Lab. Electrónica</span></td>
+            <td>Sistemas Digitales<span>Lab. Electrónica</span></td>
+            <td>Base de Datos I<span>Lab. Inf. I</span></td>
+          </tr>
+          <tr>
+            <th scope="row">09:45 – 11:15</th>
+            <td>Programación II<span>Lab. Inf. I</span></td>
+            <td>Cálculo Aplicado<span>Aula</span></td>
+            <td>Electrónica General I<span>Lab. Electrónica</span></td>
+            <td>Sistemas Digitales<span>Lab. Electrónica</span></td>
+            <td>Base de Datos I<span>Lab. Inf. I</span></td>
+          </tr>
+          <tr class="receso">
+            <th scope="row">11:15 – 11:30</th>
+            <td colspan="5">Receso</td>
+          </tr>
+          <tr>
+            <th scope="row">11:30 – 13:00</th>
+            <td>Programación II<span>Lab. Inf. I</span></td>
+            <td>Inglés Técnico II<span>Aula</span></td>
+            <td>Sistemas Digitales<span>Lab. Electrónica</span></td>
+            <td>Electrónica General I<span>Lab. Electrónica</span></td>
+            <td>Base de Datos I<span>Lab. Inf. III</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="videos" class="seccion">
+    <h2>Videos de repaso</h2>
+    <div class="carrusel" id="carrusel">
+      <figure><iframe loading="lazy" src="https://www.youtube.com/embed/CRWq0kerTFU" title="Compuertas lógicas" allowfullscreen></iframe><figcaption>Compuertas lógicas</figcaption></figure>
+      <figure><iframe loading="lazy" src="https://www.youtube.com/embed/uUdKAYl-F7g" title="SQL desde cero" allowfullscreen></iframe><figcaption>SQL desde cero</figcaption></figure>
+      <figure><iframe loading="lazy" src="https://www.youtube.com/embed/SM_hY-xouT4" title="Electrónica general" allowfullscreen></iframe><figcaption>Electrónica general</figcaption></figure>
+      <figure><iframe loading="lazy" src="https://www.youtube.com/embed/a8CUEopWCN0" title="Factorización" allowfullscreen></iframe><figcaption>Factorización</figcaption></figure>
+      <figure><iframe loading="lazy" src="https://www.youtube.com/embed/qxXcI56NfnE" title="Aprende Java" allowfullscreen></iframe><figcaption>Aprende Java</figcaption></figure>
+      <figure><iframe loading="lazy" src="https://www.youtube.com/embed/FWOjIjgQOtk" title="Tiempos verbales" allowfullscreen></iframe><figcaption>Tiempos verbales</figcaption></figure>
+    </div>
+    <div class="flechas">
+      <button class="circ" id="prev" aria-label="Videos anteriores"><i class="fas fa-chevron-left"></i></button>
+      <button class="circ" id="next" aria-label="Videos siguientes"><i class="fas fa-chevron-right"></i></button>
+    </div>
+  </section>
+
+  <section id="carrera" class="seccion">
+    <h2>Qué se aprende en la carrera</h2>
+    <p class="intro">Informática Industrial combina informática, electrónica y automatización para diseñar y mantener sistemas en entornos industriales.</p>
+    <ul class="competencias">
+      <li><h3>Dispositivos inteligentes</h3><p>Programación Android para celulares y tabletas.</p></li>
+      <li><h3>Sistemas informáticos</h3><p>Aplicaciones de escritorio en Windows y GNU/Linux, y páginas web con Apache, HTML5, CSS, JavaScript y PHP.</p></li>
+      <li><h3>Bases de datos</h3><p>Modelado, normalización y SQL con SQL Server, MariaDB, Postgres y Oracle.</p></li>
+      <li><h3>Mantenimiento de equipos</h3><p>Hardware y software de computadoras y servidores, e instalación de sistemas operativos.</p></li>
+      <li><h3>Automatización industrial</h3><p>Montaje de sensores y actuadores, lógica cableada y programada, y sistemas SCADA.</p></li>
+      <li><h3>Redes LAN y WAN</h3><p>Diseño, puesta en marcha e interconexión de redes con Mikrotik y Cisco.</p></li>
+    </ul>
+  </section>
+
+  <section id="docentes" class="seccion">
+    <h2>Docentes</h2>
+    <div class="grilla">
+      <article class="tarjeta glass"><span class="ini">XM</span><h3>Ximena Miranda</h3><p>Programación II</p></article>
+      <article class="tarjeta glass"><span class="ini">SQ</span><h3>Sofía Quispe</h3><p>Cálculo Aplicado</p></article>
+      <article class="tarjeta glass"><span class="ini">EC</span><h3>Esmeralda Chuquimia</h3><p>Electrónica General I</p></article>
+      <article class="tarjeta glass"><span class="ini">JA</span><h3>Justo Aguilar</h3><p>Sistemas Digitales e Inglés Técnico II</p></article>
+      <article class="tarjeta glass"><span class="ini">PY</span><h3>Pascual Yana Ch.</h3><p>Base de Datos I</p></article>
+    </div>
+  </section>
+
+  <section id="recursos" class="seccion">
+    <h2>Recursos</h2>
+    <div class="grilla">
+      <a class="tarjeta glass enlace" href="https://t.me/c/2171508706/24"><i class="fas fa-book"></i><h3>Mini biblioteca</h3><p>Libros y manuales en PDF.</p></a>
+      <a class="tarjeta glass enlace" href="https://t.me/c/2171508706/177"><i class="fas fa-laptop-code"></i><h3>Software y aplicaciones</h3><p>Para Windows y Android, versiones oficiales y modificadas.</p></a>
+      <a class="tarjeta glass enlace" href="https://t.me/c/2171508706/728"><i class="fas fa-music"></i><h3>Música para todos</h3><p>Descarga y comparte tu música favorita.</p></a>
+    </div>
+    <p class="nota">Los recursos se abren en Telegram y requieren ser miembro del grupo.</p>
+  </section>
+
+  <section id="contacto" class="seccion">
+    <h2>Contacto</h2>
+    <div class="grilla">
+      <div class="tarjeta glass">
+        <h3>Secretaría del instituto</h3>
+        <p><a href="tel:+59176555326"><i class="fas fa-phone"></i> Llamar al 76555326</a></p>
+        <p><a href="https://wa.me/59176555326"><i class="fab fa-whatsapp"></i> Escribir por WhatsApp</a></p>
+      </div>
+      <div class="tarjeta glass">
+        <h3>Dirección</h3>
+        <p>Zona Villa Adela, Plan 88, Av. Montero n.º 123, entre calles 10 y 12. El Alto, La Paz, Bolivia.</p>
+        <p><a href="http://virtual.itso.edu.bo"><i class="fas fa-graduation-cap"></i> Plataforma virtual</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="pie">
+  <p>© 2026 ITSO, Informática Industrial. Portal estudiantil no oficial.</p>
+  <p>Desarrollado por CTZ · <a href="https://t.me/AnddyCort?text=Hola,%20tengo%20un%20comentario%20sobre%20la%20p%C3%A1gina:">Enviar comentario</a></p>
+</footer>
+
+<div class="radio">
+  <button class="radio-btn glass" id="radio-toggle" aria-label="Abrir radio en línea" aria-expanded="false"><i class="fas fa-music"></i></button>
+  <div class="radio-panel glass" id="radio-panel" hidden>
+    <h3>Radio en línea</h3>
+    <ul class="emisoras" id="emisoras">
+      <li><button class="emisora activa" data-src="https://stream.laut.fm/conexionkpop">K-Pop</button></li>
+      <li><button class="emisora" data-src="https://stream2-0nlineradio.radiohost.de/lo-fi">Lo-Fi</button></li>
+      <li><button class="emisora" data-src="https://stream-156.zeno.fm/gua0fk9xqf9uv">Pop</button></li>
+      <li><button class="emisora" data-src="https://stream-175.zeno.fm/fmrzu273ud0uv">80s y 90s</button></li>
+      <li><button class="emisora" data-src="https://rtlberlin.streamabc.net/rtlb-80rock-mp3-192-1947757">Rock y Pop</button></li>
+      <li><button class="emisora" data-src="https://stream.zeno.fm/x0jyivry0hhuv">Baladas</button></li>
+      <li><button class="emisora" data-src="https://streaming.nrjaudio.fm/ousgb2m4z85f">Latino</button></li>
+    </ul>
+    <div class="radio-ctl">
+      <button class="circ" id="radio-play" aria-label="Reproducir"><i class="fas fa-play"></i></button>
+      <input type="range" id="radio-vol" min="0" max="100" value="50" aria-label="Volumen">
+    </div>
+    <p class="radio-estado" id="radio-estado" role="status"></p>
+  </div>
+</div>
+
+</body>
+</html>
